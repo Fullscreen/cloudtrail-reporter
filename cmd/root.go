@@ -27,9 +27,11 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "cloudtrail-reporter",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
+	Version: "v0.0.1",
+	Use:     "cloudtrail-reporter",
+	Short:   "A Reporting tool for AWS Cloudtrail",
+	Long: `A reporting tool to creat summaries of cloudtrail actions
+	....TODO
 examples and usage of using your application. For example:
 
 Cobra is a CLI library for Go that empowers applications.
