@@ -27,7 +27,7 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Version: "v0.0.1",
+	Version: "v0.0.2",
 	Use:     "cloudtrail-reporter",
 	Short:   "A Reporting tool for AWS Cloudtrail",
 	Long: `A reporting tool to creat summaries of cloudtrail actions

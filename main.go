@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/Fullscreen/cloudtrail-reporter/cmd"
+import "cloudtrail-reporter/cmd"
 
 func main() {
 	cmd.Execute()
